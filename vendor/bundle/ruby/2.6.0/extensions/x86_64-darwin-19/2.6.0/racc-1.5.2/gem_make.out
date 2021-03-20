@@ -1,0 +1,16 @@
+current directory: /Users/mounzee/code/markMounsey/rails-mister-cocktail-remake/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+/Users/mounzee/.rbenv/versions/2.6.6/bin/ruby -I /Users/mounzee/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20210320-2523-5wxfj2.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/mounzee/code/markMounsey/rails-mister-cocktail-remake/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /Users/mounzee/code/markMounsey/rails-mister-cocktail-remake/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/mounzee/code/markMounsey/rails-mister-cocktail-remake/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20210320-2523-89wx16/racc
