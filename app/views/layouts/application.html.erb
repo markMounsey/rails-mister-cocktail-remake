@@ -11,6 +11,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div id="container">
+      <div id="content-wrap">
+        <%= render "shared/navbar"  %>
+        <%= render "shared/banner"  %>
+        <%= render "shared/card"  %>
+        <%= yield %>
+        <%= render "shared/footer"  %>
+      </div>
+    </div>
   </body>
 </html>
